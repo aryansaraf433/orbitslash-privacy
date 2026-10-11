@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Orbit Slash</title>
+    <style>
+        :root {
+            --bg-color: #0b0819;
+            --card-bg: rgba(22, 17, 43, 0.85);
+            --text-color: #e2e8f0;
+            --heading-color: #38bdf8;
+            --accent-pink: #f43f5e;
+            --border-color: rgba(56, 189, 248, 0.25);
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 24px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 36px 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            margin-top: 0;
+            background: linear-gradient(135deg, var(--heading-color), var(--accent-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 32px;
+            font-size: 1.35rem;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #cbd5e1;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: var(--heading-color);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .effective-date {
+            font-size: 0.9rem;
+            color: #94a3b8;
+            margin-bottom: 24px;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.15);
+            border: 1px solid var(--heading-color);
+            color: var(--heading-color);
+            padding: 2px 10px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Google Play Compliant</div>
+        <h1>Privacy Policy for Orbit Slash</h1>
+        <div class="effective-date">Last Updated: October 11, 2026</div>
+
+        <p>This Privacy Policy explains how <strong>Orbit Slash</strong> ("we", "our", or "the Game") handles your information when you download, install, and play our mobile application on Android devices.</p>
+
+        <h2>1. Information We Do NOT Collect</h2>
+        <p>Orbit Slash does not require account registration with personal credentials. We do <strong>not</strong> collect or store personally identifiable information (PII) such as:</p>
+        <ul>
+            <li>Your real name</li>
+            <li>Your email address or phone number</li>
+            <li>Your physical address or precise GPS location</li>
+            <li>Your contacts, photos, or personal files</li>
+        </ul>
+
+        <h2>2. Information Collected and Used</h2>
+        <p>The Game may collect and process the following minimal non-personal information to enable core game mechanics:</p>
+        <ul>
+            <li><strong>Gameplay & Progression Data:</strong> High scores, currency, unlocked skins, and achievements are saved locally on your device storage (via local save files).</li>
+            <li><strong>Public Leaderboard:</strong> If you choose to submit a high score, the game transmits your custom Pilot Alias (nickname) and score to our Supabase database to display public rankings. Please do not use your real name as your pilot alias.</li>
+            <li><strong>Anonymous Technical Telemetry:</strong> Basic diagnostic telemetry (such as frame rate metrics and crash reports) may be gathered to troubleshoot device compatibility and optimize performance on low-end hardware.</li>
+        </ul>
+
+        <h2>3. Third-Party Services and Advertising</h2>
+        <p>The Game integrates third-party services that may collect information used to identify your device in accordance with their own privacy policies:</p>
+        <ul>
+            <li><strong>Google AdMob (Google LLC):</strong> We display non-intrusive advertisements (banners, interstitials, and rewarded video ads). AdMob may collect and process device identifiers, Android Advertising ID (AD_ID), IP addresses, and diagnostic information to serve personalized or non-personalized ads.
+                <br>For more details on Google's privacy practices, visit: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Policies</a>.
+            </li>
+            <li><strong>Supabase:</strong> Used as a secure cloud database provider to store public high scores and leaderboards.</li>
+        </ul>
+
+        <h2>4. Permissions Used by the Application</h2>
+        <ul>
+            <li><code>android.permission.INTERNET</code>: Required to fetch global leaderboard rankings and retrieve AdMob advertisements.</li>
+            <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Required to verify active network connectivity before sending leaderboard scores or requesting ads.</li>
+            <li><code>com.google.android.gms.permission.AD_ID</code>: Standard Android permission used by the Google Mobile Ads SDK for ad serving and fraud detection.</li>
+        </ul>
+
+        <h2>5. Children’s Privacy (COPPA Compliance)</h2>
+        <p>Orbit Slash is intended for general audiences. We do not knowingly collect personal information from children under the age of 13. If you believe that a child has provided us with personal information, please contact us and we will promptly delete the data.</p>
+
+        <h2>6. Data Retention and Deletion Requests</h2>
+        <p>All local progress data can be completely cleared at any time by clearing the game's app data or uninstalling the application from your Android device. If you wish to have a leaderboard score entry deleted from our public database, you can contact us with your pilot alias.</p>
+
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+
+        <h2>8. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:support@orbitslash.com">support@orbitslash.com</a></p>
+    </div>
+</body>
+</html>
